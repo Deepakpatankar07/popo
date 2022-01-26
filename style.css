@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Hursheys";
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color:#E3EBEE;
+    
+}
+#left{
+    
+    width: 30%;
+    height: 100%;
+    background:linear-gradient(rgb(153, 43, 43),#7a1d1d);
+    
+
+}#left h1{
+    color: #fff;
+   position: absolute;
+    top: 10%;
+    left: 10%;
+   font-size: 120px;
+   font-weight: 100;
+   transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+#leftbtm h3{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+   bottom: 6%;
+   left:10%;
+   transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#center{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1484328861630-cf73b7d34ea3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80);
+
+    
+    background-position:60%;
+    background-size: cover; 
+}
+#startext{
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: blue; */
+    height: 10%;
+    width: 30%;
+}
+#startext h4{
+    position: relative;
+    color: #af2323;
+    font-size: 55px;
+    font-weight: 300;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.7s;
+   
+}
+#startext h4 span{
+    position: absolute;
+    top: -10px;
+    left: -20px;
+}
+#right{
+    width: 20%;
+    height: 100%;
+}
+#right #rtop{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1484329081568-bed9ba42793d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80);
+    background-position: 38%;
+    background-size: cover;
+
+}
+#right #rbtm{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    background:linear-gradient(#e9413e,#7a1d1d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+}
+#rbtm h2{
+    
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   font-size: 40px;
+   font-weight: 100;
+   transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+#linediv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    height: 40px;
+    border-top: 1px dotted rgba(255, 255, 255, 0.24);
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.24);
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+#linediv #h31{
+  color: #fff;
+  margin-left: 50px; 
+  font-size: 10px;
+  letter-spacing: 15px;
+  font-weight: 100;
+}
+#linediv #h32{
+    color: #fff;
+  
+    margin-right: 5px; 
+    font-size: 10px;
+    letter-spacing: 8px;
+    font-weight: 100;
+  }
+
+#circle{
+    
+    position:absolute;
+    top: 30%;
+    left: 70%;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border-top: 1px dotted rgba(20, 13, 13, 0.712);
+    border-bottom: 1px dotted rgba(17, 10, 10, 0.712);
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.7ms;
+
+}
+#circle h5{
+    color: rgb(153, 43, 43);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%,-50%);
+    letter-spacing: 10px;
+    font-weight: 100;
+    align-items: center;
+    
+}
+#circle:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+}
+#left h1:hover{
+    
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    font-size: 130px;
+}
+#linediv:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+}
+#rbtm h2:hover{
+    -webkit-text-stroke: 0.7px black;
+    color: transparent;
+}
+#startext h4:hover{
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.623);
+    color: transparent;
+    font-size: 70px;
+}
+#leftbtm h3:hover{
+    -webkit-text-stroke: 0.7px black;
+    color: transparent;
+}
